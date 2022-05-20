@@ -17,6 +17,23 @@
 // Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301  USA
 // -----------------------------------------------------------------------------
 
+// using this library:
+# if 0
+ $  cat /some/path/to/Arduino/libraries/SdFat/library.properties
+  1 name=SdFat
+  2 version=2.0.1
+  3 license=MIT
+  4 author=Bill Greiman <fat16lib@sbcglobal.net>
+  5 maintainer=Bill Greiman <fat16lib@sbcglobal.net>
+  6 sentence=FAT16/FAT32/exFAT file system.
+  7 paragraph=FAT16/FAT32/exFAT file system.gghiijj
+  8 category=Data Storage
+  9 url=https://github.com/greiman/SdFat
+ 10 repository=https://github.com/greiman/SdFat.git
+ 11 architectures=*
+#endif
+
+extern void kludge_aa(void); // kludges-aa.cpp  20 May 2022 16:03 UTC
 
 #include "Altair8800.h"
 #include "config.h"
@@ -1614,6 +1631,10 @@ void setup()
   drive_get_image_filename(0x99, true);
 
   Serial.begin(115200);
+  Serial.write('.'); // kludge 20 May 16:03z
+  Serial.println("LINE 1635 main .ino file");
+  kludge_aa(); // towards animating front panel LEDs for testing. 20 May 16:04z
+
 
   timer_setup();
   mem_setup();
