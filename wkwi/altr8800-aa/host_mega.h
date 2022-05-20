@@ -23,7 +23,7 @@
 
 #define HOST_PERFORMANCE_FACTOR 0.25
 
-#define HOST_NUM_SERIAL_PORTS   1
+#define HOST_NUM_SERIAL_PORTS   1 // tolerated 3 here
 
 #define PROF_DISPLAY_INTERVAL 100000
 
