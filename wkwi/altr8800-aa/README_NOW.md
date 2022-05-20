@@ -1,5 +1,11 @@
 20 May 2022: Towards a validated wiring job. ;)
 
+Fri 20 May 17:07:07 UTC 2022
+
+  https://github.com/wa1tnr/wokwi-2560-Altair8800-duino-a/tree/dvlp-aa
+
+  https://wokwi.com/projects/332196032517505618
+
 Altair8800.ino:
 
    1743           // put PC on address bus LEDs
