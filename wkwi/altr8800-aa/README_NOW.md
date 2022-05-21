@@ -4,7 +4,9 @@ Sat 21 May 12:36:10 UTC 2022
 
   https://github.com/wa1tnr/wokwi-2560-Altair8800-duino-a/tree/dvlp-aa
 
-  DEVELOP:  (branch: extra-a)
+  DEVELOP:  (branch: extra-a)  (both links useful - they are not the same to wokwi storage)
+
+  https://wokwi.com/projects/332270290268586580
 
   https://wokwi.com/projects/332270290268586580?__beta_dragwires=1
 
