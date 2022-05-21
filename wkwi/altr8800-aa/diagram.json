@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "author": "wa1tnr-cef-sw2-280-650--0044z-offline",
+  "author": "wa1tnr-efj-sw2-280-650--0055z-online",
   "editor": "wokwi",
   "parts": [
     { "type": "wokwi-arduino-mega", "id": "mega", "top": 650, "left": 550, "attrs": {} },
@@ -254,6 +254,7 @@
       "top": 190,
       "left": 1230,
       "rotate": 90,
+      "hide": true,
       "attrs": { "value": "1000" }
     },
     {
@@ -262,6 +263,7 @@
       "top": 190,
       "left": 1180,
       "rotate": 90,
+      "hide": true,
       "attrs": { "value": "1000" }
     },
     {
@@ -270,6 +272,7 @@
       "top": 190,
       "left": 1130,
       "rotate": 90,
+      "hide": true,
       "attrs": { "value": "1000" }
     },
     {
@@ -278,6 +281,7 @@
       "top": 190,
       "left": 1030,
       "rotate": 90,
+      "hide": true,
       "attrs": { "value": "1000" }
     },
     {
@@ -286,6 +290,7 @@
       "top": 190,
       "left": 980,
       "rotate": 90,
+      "hide": true,
       "attrs": { "value": "1000" }
     },
     {
@@ -294,6 +299,7 @@
       "top": 190,
       "left": 930,
       "rotate": 90,
+      "hide": true,
       "attrs": { "value": "1000" }
     },
     {
@@ -302,6 +308,7 @@
       "top": 190,
       "left": 830,
       "rotate": 90,
+      "hide": true,
       "attrs": { "value": "1000" }
     },
     {
@@ -310,6 +317,7 @@
       "top": 190,
       "left": 780,
       "rotate": 90,
+      "hide": true,
       "attrs": { "value": "1000" }
     }
   ],
