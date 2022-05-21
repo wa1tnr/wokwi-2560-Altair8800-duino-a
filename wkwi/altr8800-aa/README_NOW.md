@@ -6,7 +6,7 @@ Sat 21 May 12:36:10 UTC 2022
 
   DEVELOP:  (branch: extra-a)
 
-  https://wokwi.com/projects/332270290268586580
+  https://wokwi.com/projects/332270290268586580?__beta_dragwires=1
 
   STOCK/PRODUCTION:
 
