@@ -1,8 +1,14 @@
-20 May 2022: Towards a validated wiring job. ;)
+21 May 2022: Towards a validated wiring job. ;)
 
-Fri 20 May 17:07:07 UTC 2022
+Sat 21 May 12:36:10 UTC 2022
 
   https://github.com/wa1tnr/wokwi-2560-Altair8800-duino-a/tree/dvlp-aa
+
+  DEVELOP:  (branch: extra-a)
+
+  https://wokwi.com/projects/332270290268586580
+
+  STOCK/PRODUCTION:
 
   https://wokwi.com/projects/332196032517505618
 
@@ -12,8 +18,6 @@ Altair8800.ino:
    1744           host_set_addr_leds(regPC);
 
 Theory: this could be used to test wiring of address LEDs.
-A15 seems wrong at the moment; can't quite suss why.
-
 
 Note: flip both switches DOWN to run normal.  This seems correct
 (by operation).  Not sure why (maybe some switches MUST be wired and they are not?)
