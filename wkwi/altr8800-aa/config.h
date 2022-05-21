@@ -120,7 +120,7 @@
 // If enabled, Address switch state will be set by issuing the '/'
 // serial command.  Actual switches will be ignored.
 // Useful when operating while not connected to the front panel hardware.
-#define STANDALONE 1
+#define STANDALONE 0
 
 
 
