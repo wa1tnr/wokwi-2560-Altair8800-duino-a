@@ -96,7 +96,7 @@
       "top": 220,
       "left": 1200,
       "rotate": 90,
-      "hide": false,
+      "hide": true,
       "attrs": { "value": "1000" }
     },
     {
@@ -105,7 +105,7 @@
       "top": 220,
       "left": 1150,
       "rotate": 90,
-      "hide": false,
+      "hide": true,
       "attrs": { "value": "1000" }
     },
     {
@@ -114,7 +114,7 @@
       "top": 220,
       "left": 1100,
       "rotate": 90,
-      "hide": false,
+      "hide": true,
       "attrs": { "value": "1000" }
     },
     {
@@ -123,7 +123,7 @@
       "top": 220,
       "left": 1000,
       "rotate": 90,
-      "hide": false,
+      "hide": true,
       "attrs": { "value": "1000" }
     },
     {
@@ -132,7 +132,7 @@
       "top": 220,
       "left": 950,
       "rotate": 90,
-      "hide": false,
+      "hide": true,
       "attrs": { "value": "1000" }
     },
     {
@@ -141,7 +141,7 @@
       "top": 220,
       "left": 900,
       "rotate": 90,
-      "hide": false,
+      "hide": true,
       "attrs": { "value": "1000" }
     },
     {
@@ -150,7 +150,7 @@
       "top": 220,
       "left": 800,
       "rotate": 90,
-      "hide": false,
+      "hide": true,
       "attrs": { "value": "1000" }
     },
     {
@@ -159,7 +159,7 @@
       "top": 220,
       "left": 750,
       "rotate": 90,
-      "hide": false,
+      "hide": true,
       "attrs": { "value": "1000" }
     },
     {
@@ -168,7 +168,7 @@
       "top": 220,
       "left": 700,
       "rotate": 90,
-      "hide": false,
+      "hide": true,
       "attrs": { "value": "1000" }
     },
     {
@@ -177,7 +177,7 @@
       "top": 220,
       "left": 600,
       "rotate": 90,
-      "hide": false,
+      "hide": true,
       "attrs": { "value": "1000" }
     },
     {
@@ -186,7 +186,7 @@
       "top": 220,
       "left": 550,
       "rotate": 90,
-      "hide": false,
+      "hide": true,
       "attrs": { "value": "1000" }
     },
     {
@@ -195,7 +195,7 @@
       "top": 220,
       "left": 500,
       "rotate": 90,
-      "hide": false,
+      "hide": true,
       "attrs": { "value": "1000" }
     },
     {
@@ -204,7 +204,7 @@
       "top": 220,
       "left": 400,
       "rotate": 90,
-      "hide": false,
+      "hide": true,
       "attrs": { "value": "1000" }
     },
     {
@@ -213,7 +213,7 @@
       "top": 220,
       "left": 350,
       "rotate": 90,
-      "hide": false,
+      "hide": true,
       "attrs": { "value": "1000" }
     },
     {
@@ -222,7 +222,7 @@
       "top": 220,
       "left": 300,
       "rotate": 90,
-      "hide": false,
+      "hide": true,
       "attrs": { "value": "1000" }
     },
     {
@@ -231,7 +231,7 @@
       "top": 220,
       "left": 200,
       "rotate": 90,
-      "hide": false,
+      "hide": true,
       "attrs": { "value": "1000" }
     },
     {
