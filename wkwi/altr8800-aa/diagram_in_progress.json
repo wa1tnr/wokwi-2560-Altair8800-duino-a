@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "author": "wa1tnr-switch_crafting Sun 22 May 19:30:33 UTC 2022 online-dragwire-tt",
+  "author": "wa1tnr-switch_crafting Sun 22 May 19:40:06 UTC 2022 offline-dragwire-vv",
   "editor": "wokwi",
   "parts": [
     { "type": "wokwi-arduino-mega", "id": "mega", "top": 2650, "left": 550, "attrs": {} },
@@ -20,134 +20,22 @@
     { "type": "wokwi-led", "id": "led14", "top": 120, "left": 350, "attrs": { "color": "red" } },
     { "type": "wokwi-led", "id": "led15", "top": 120, "left": 300, "attrs": { "color": "red" } },
     { "type": "wokwi-led", "id": "led16", "top": 120, "left": 200, "attrs": { "color": "red" } },
-    {
-      "type": "wokwi-resistor",
-      "id": "r1",
-      "top": 620,
-      "left": 1200,
-      "rotate": 90,
-      "attrs": { "value": "1000" }
-    },
-    {
-      "type": "wokwi-resistor",
-      "id": "r2",
-      "top": 620,
-      "left": 1155,
-      "rotate": 90,
-      "attrs": { "value": "1000" }
-    },
-    {
-      "type": "wokwi-resistor",
-      "id": "r3",
-      "top": 620,
-      "left": 1105,
-      "rotate": 90,
-      "attrs": { "value": "1000" }
-    },
-    {
-      "type": "wokwi-resistor",
-      "id": "r4",
-      "top": 620,
-      "left": 1005,
-      "rotate": 90,
-      "attrs": { "value": "1000" }
-    },
-    {
-      "type": "wokwi-resistor",
-      "id": "r5",
-      "top": 620,
-      "left": 955,
-      "rotate": 90,
-      "attrs": { "value": "1000" }
-    },
-    {
-      "type": "wokwi-resistor",
-      "id": "r6",
-      "top": 620,
-      "left": 905,
-      "rotate": 90,
-      "attrs": { "value": "1000" }
-    },
-    {
-      "type": "wokwi-resistor",
-      "id": "r7",
-      "top": 620,
-      "left": 805,
-      "rotate": 90,
-      "attrs": { "value": "1000" }
-    },
-    {
-      "type": "wokwi-resistor",
-      "id": "r8",
-      "top": 620,
-      "left": 720,
-      "rotate": 90,
-      "attrs": { "value": "1000" }
-    },
-    {
-      "type": "wokwi-resistor",
-      "id": "r9",
-      "top": 620,
-      "left": 670,
-      "rotate": 90,
-      "attrs": { "value": "1000" }
-    },
-    {
-      "type": "wokwi-resistor",
-      "id": "r10",
-      "top": 620,
-      "left": 575,
-      "rotate": 90,
-      "attrs": { "value": "1000" }
-    },
-    {
-      "type": "wokwi-resistor",
-      "id": "r11",
-      "top": 620,
-      "left": 525,
-      "rotate": 90,
-      "attrs": { "value": "1000" }
-    },
-    {
-      "type": "wokwi-resistor",
-      "id": "r12",
-      "top": 620,
-      "left": 475,
-      "rotate": 90,
-      "attrs": { "value": "1000" }
-    },
-    {
-      "type": "wokwi-resistor",
-      "id": "r13",
-      "top": 620,
-      "left": 375,
-      "rotate": 90,
-      "attrs": { "value": "1000" }
-    },
-    {
-      "type": "wokwi-resistor",
-      "id": "r14",
-      "top": 620,
-      "left": 325,
-      "rotate": 90,
-      "attrs": { "value": "1000" }
-    },
-    {
-      "type": "wokwi-resistor",
-      "id": "r15",
-      "top": 620,
-      "left": 275,
-      "rotate": 90,
-      "attrs": { "value": "1000" }
-    },
-    {
-      "type": "wokwi-resistor",
-      "id": "r16",
-      "top": 620,
-      "left": 175,
-      "rotate": 90,
-      "attrs": { "value": "1000" }
-    },
+    { "type": "wokwi-resistor", "id": "r1", "top": 620, "left": 1200, "rotate": 90, "attrs": { "value": "1000" } },
+    { "type": "wokwi-resistor", "id": "r2", "top": 620, "left": 1155, "rotate": 90, "attrs": { "value": "1000" } },
+    { "type": "wokwi-resistor", "id": "r3", "top": 620, "left": 1105, "rotate": 90, "attrs": { "value": "1000" } },
+    { "type": "wokwi-resistor", "id": "r4", "top": 620, "left": 1005, "rotate": 90, "attrs": { "value": "1000" } },
+    { "type": "wokwi-resistor", "id": "r5", "top": 620, "left": 955, "rotate": 90, "attrs": { "value": "1000" } },
+    { "type": "wokwi-resistor", "id": "r6", "top": 620, "left": 905, "rotate": 90, "attrs": { "value": "1000" } },
+    { "type": "wokwi-resistor", "id": "r7", "top": 620, "left": 805, "rotate": 90, "attrs": { "value": "1000" } },
+    { "type": "wokwi-resistor", "id": "r8", "top": 620, "left": 720, "rotate": 90, "attrs": { "value": "1000" } },
+    { "type": "wokwi-resistor", "id": "r9", "top": 620, "left": 670, "rotate": 90, "attrs": { "value": "1000" } },
+    { "type": "wokwi-resistor", "id": "r10", "top": 620, "left": 575, "rotate": 90, "attrs": { "value": "1000" } },
+    { "type": "wokwi-resistor", "id": "r11", "top": 620, "left": 525, "rotate": 90, "attrs": { "value": "1000" } },
+    { "type": "wokwi-resistor", "id": "r12", "top": 620, "left": 475, "rotate": 90, "attrs": { "value": "1000" } },
+    { "type": "wokwi-resistor", "id": "r13", "top": 620, "left": 375, "rotate": 90, "attrs": { "value": "1000" } },
+    { "type": "wokwi-resistor", "id": "r14", "top": 620, "left": 325, "rotate": 90, "attrs": { "value": "1000" } },
+    { "type": "wokwi-resistor", "id": "r15", "top": 620, "left": 275, "rotate": 90, "attrs": { "value": "1000" } },
+    { "type": "wokwi-resistor", "id": "r16", "top": 620, "left": 175, "rotate": 90, "attrs": { "value": "1000" } },
     { "type": "wokwi-led", "id": "led17", "top": 40, "left": 1200, "attrs": { "color": "red" } },
     { "type": "wokwi-led", "id": "led18", "top": 40, "left": 1150, "attrs": { "color": "red" } },
     { "type": "wokwi-led", "id": "led19", "top": 40, "left": 1100, "attrs": { "color": "red" } },
@@ -156,420 +44,52 @@
     { "type": "wokwi-led", "id": "led22", "top": 40, "left": 900, "attrs": { "color": "red" } },
     { "type": "wokwi-led", "id": "led23", "top": 40, "left": 800, "attrs": { "color": "red" } },
     { "type": "wokwi-led", "id": "led24", "top": 40, "left": 750, "attrs": { "color": "red" } },
-    {
-      "type": "wokwi-resistor",
-      "id": "r17",
-      "top": 490,
-      "left": 1230,
-      "rotate": 90,
-      "attrs": { "value": "1000" }
-    },
-    {
-      "type": "wokwi-resistor",
-      "id": "r18",
-      "top": 490,
-      "left": 1180,
-      "rotate": 90,
-      "attrs": { "value": "1000" }
-    },
-    {
-      "type": "wokwi-resistor",
-      "id": "r19",
-      "top": 490,
-      "left": 1130,
-      "rotate": 90,
-      "attrs": { "value": "1000" }
-    },
-    {
-      "type": "wokwi-resistor",
-      "id": "r20",
-      "top": 490,
-      "left": 1030,
-      "rotate": 90,
-      "attrs": { "value": "1000" }
-    },
-    {
-      "type": "wokwi-resistor",
-      "id": "r21",
-      "top": 490,
-      "left": 980,
-      "rotate": 90,
-      "attrs": { "value": "1000" }
-    },
-    {
-      "type": "wokwi-resistor",
-      "id": "r22",
-      "top": 490,
-      "left": 930,
-      "rotate": 90,
-      "attrs": { "value": "1000" }
-    },
-    {
-      "type": "wokwi-resistor",
-      "id": "r23",
-      "top": 490,
-      "left": 830,
-      "rotate": 90,
-      "attrs": { "value": "1000" }
-    },
-    {
-      "type": "wokwi-resistor",
-      "id": "r24",
-      "top": 490,
-      "left": 780,
-      "rotate": 90,
-      "attrs": { "value": "1000" }
-    },
-    {
-      "type": "wokwi-slide-switch",
-      "id": "sw1",
-      "top": 220,
-      "left": 1220,
-      "rotate": 270,
-      "attrs": {}
-    },
-    {
-      "type": "wokwi-slide-switch",
-      "id": "sw2",
-      "top": 220,
-      "left": 1170,
-      "rotate": 270,
-      "attrs": {}
-    },
-    {
-      "type": "wokwi-slide-switch",
-      "id": "sw3",
-      "top": 220,
-      "left": 1120,
-      "rotate": 270,
-      "attrs": {}
-    },
-    {
-      "type": "wokwi-slide-switch",
-      "id": "sw4",
-      "top": 220,
-      "left": 1020,
-      "rotate": 270,
-      "attrs": {}
-    },
-    {
-      "type": "wokwi-slide-switch",
-      "id": "sw5",
-      "top": 220,
-      "left": 970,
-      "rotate": 270,
-      "attrs": {}
-    },
-    {
-      "type": "wokwi-slide-switch",
-      "id": "sw6",
-      "top": 220,
-      "left": 920,
-      "rotate": 270,
-      "attrs": {}
-    },
-    {
-      "type": "wokwi-slide-switch",
-      "id": "sw7",
-      "top": 220,
-      "left": 820,
-      "rotate": 270,
-      "attrs": {}
-    },
-    {
-      "type": "wokwi-slide-switch",
-      "id": "sw8",
-      "top": 220,
-      "left": 770,
-      "rotate": 270,
-      "attrs": {}
-    },
-    {
-      "type": "wokwi-slide-switch",
-      "id": "sw9",
-      "top": 220,
-      "left": 720,
-      "rotate": 270,
-      "attrs": {}
-    },
-    {
-      "type": "wokwi-slide-switch",
-      "id": "sw10",
-      "top": 220,
-      "left": 620,
-      "rotate": 270,
-      "attrs": {}
-    },
-    {
-      "type": "wokwi-slide-switch",
-      "id": "sw11",
-      "top": 220,
-      "left": 570,
-      "rotate": 270,
-      "attrs": {}
-    },
-    {
-      "type": "wokwi-slide-switch",
-      "id": "sw12",
-      "top": 220,
-      "left": 520,
-      "rotate": 270,
-      "attrs": {}
-    },
-    {
-      "type": "wokwi-slide-switch",
-      "id": "sw13",
-      "top": 220,
-      "left": 420,
-      "rotate": 270,
-      "attrs": {}
-    },
-    {
-      "type": "wokwi-slide-switch",
-      "id": "sw14",
-      "top": 220,
-      "left": 370,
-      "rotate": 270,
-      "attrs": {}
-    },
-    {
-      "type": "wokwi-slide-switch",
-      "id": "sw15",
-      "top": 220,
-      "left": 320,
-      "rotate": 270,
-      "attrs": {}
-    },
-    {
-      "type": "wokwi-slide-switch",
-      "id": "sw16",
-      "top": 220,
-      "left": 220,
-      "rotate": 270,
-      "attrs": {}
-    },
-
-
-
-
-    {
-      "type": "wokwi-slide-switch",
-      "id": "sw17",
-      "top": 300,
-      "left": 1120,
-      "rotate": 270,
-      "attrs": {}
-    },
-
-
-    {
-      "type": "wokwi-slide-switch",
-      "id": "sw18",
-      "top": 300,
-      "left": 1020,
-      "rotate": 270,
-      "attrs": {}
-    },
-
-
-
-
-    {
-      "type": "wokwi-slide-switch",
-      "id": "sw59",
-      "top": 300,
-      "left": 920,
-      "rotate": 270,
-      "attrs": {}
-    },
-
-
-    {
-      "type": "wokwi-slide-switch",
-      "id": "sw60",
-      "top": 300,
-      "left": 820,
-      "rotate": 270,
-      "attrs": {}
-    },
-
-
-
-    {
-      "type": "wokwi-slide-switch",
-      "id": "sw21",
-      "top": 300,
-      "left": 720,
-      "rotate": 270,
-      "attrs": {}
-    },
-
-
-    {
-      "type": "wokwi-slide-switch",
-      "id": "sw22",
-      "top": 300,
-      "left": 620,
-      "rotate": 270,
-      "attrs": {}
-    },
-
-    {
-      "type": "wokwi-slide-switch",
-      "id": "sw23",
-      "top": 300,
-      "left": 520,
-      "rotate": 270,
-      "attrs": {}
-    },
-
-
-    {
-      "type": "wokwi-slide-switch",
-      "id": "sw24",
-      "top": 300,
-      "left": 420,
-      "rotate": 270,
-      "attrs": {}
-    },
-
-
-
-
-
-
-
-    {
-      "type": "wokwi-slide-switch",
-      "id": "sw25",
-      "top": 220,
-      "left": 220,
-      "rotate": 270,
-      "attrs": {}
-    },
-
-
-    {
-      "type": "wokwi-slide-switch",
-      "id": "sw26",
-      "top": 220,
-      "left": 220,
-      "rotate": 270,
-      "attrs": {}
-    },
-
-
-    {
-      "type": "wokwi-slide-switch",
-      "id": "sw27",
-      "top": 220,
-      "left": 220,
-      "rotate": 270,
-      "attrs": {}
-    },
-
-
-    {
-      "type": "wokwi-slide-switch",
-      "id": "sw28",
-      "top": 220,
-      "left": 220,
-      "rotate": 270,
-      "attrs": {}
-    },
-
-
-    {
-      "type": "wokwi-slide-switch",
-      "id": "sw29",
-      "top": 220,
-      "left": 220,
-      "rotate": 270,
-      "attrs": {}
-    },
-
-
-    {
-      "type": "wokwi-slide-switch",
-      "id": "sw30",
-      "top": 220,
-      "left": 220,
-      "rotate": 270,
-      "attrs": {}
-    },
-
-
-    {
-      "type": "wokwi-slide-switch",
-      "id": "sw31",
-      "top": 220,
-      "left": 220,
-      "rotate": 270,
-      "attrs": {}
-    },
-
-
-    {
-      "type": "wokwi-slide-switch",
-      "id": "sw32",
-      "top": 220,
-      "left": 220,
-      "rotate": 270,
-      "attrs": {}
-    },
-
-
-
-
-
-
-
-
-
-    {
-      "type": "wokwi-slide-switch",
-      "id": "sw39",
-      "top": 350,
-      "left": 1120,
-      "rotate": 90,
-      "attrs": {}
-    },
-    {
-      "type": "wokwi-slide-switch",
-      "id": "sw40",
-      "top": 350,
-      "left": 1020,
-      "rotate": 90,
-      "attrs": {}
-    },
-
-
-    {
-      "type": "wokwi-slide-switch",
-      "id": "sw57",
-      "top": 300,
-      "left": 820,
-      "rotate": 270,
-      "attrs": {}
-    },
-
-
-    {
-      "type": "wokwi-slide-switch",
-      "id": "sw58",
-      "top": 220,
-      "left": 220,
-      "rotate": 270,
-      "attrs": {}
-    }
-
-
-
+    { "type": "wokwi-resistor", "id": "r17", "top": 490, "left": 1230, "rotate": 90, "attrs": { "value": "1000" } },
+    { "type": "wokwi-resistor", "id": "r18", "top": 490, "left": 1180, "rotate": 90, "attrs": { "value": "1000" } },
+    { "type": "wokwi-resistor", "id": "r19", "top": 490, "left": 1130, "rotate": 90, "attrs": { "value": "1000" } },
+    { "type": "wokwi-resistor", "id": "r20", "top": 490, "left": 1030, "rotate": 90, "attrs": { "value": "1000" } },
+    { "type": "wokwi-resistor", "id": "r21", "top": 490, "left": 980, "rotate": 90, "attrs": { "value": "1000" } },
+    { "type": "wokwi-resistor", "id": "r22", "top": 490, "left": 930, "rotate": 90, "attrs": { "value": "1000" } },
+    { "type": "wokwi-resistor", "id": "r23", "top": 490, "left": 830, "rotate": 90, "attrs": { "value": "1000" } },
+    { "type": "wokwi-resistor", "id": "r24", "top": 490, "left": 780, "rotate": 90, "attrs": { "value": "1000" } },
+    { "type": "wokwi-slide-switch", "id": "sw1", "top": 220, "left": 1220, "rotate": 270, "attrs": {} },
+    { "type": "wokwi-slide-switch", "id": "sw2", "top": 220, "left": 1170, "rotate": 270, "attrs": {} },
+    { "type": "wokwi-slide-switch", "id": "sw3", "top": 220, "left": 1120, "rotate": 270, "attrs": {} },
+    { "type": "wokwi-slide-switch", "id": "sw4", "top": 220, "left": 1020, "rotate": 270, "attrs": {} },
+    { "type": "wokwi-slide-switch", "id": "sw5", "top": 220, "left": 970, "rotate": 270, "attrs": {} },
+    { "type": "wokwi-slide-switch", "id": "sw6", "top": 220, "left": 920, "rotate": 270, "attrs": {} },
+    { "type": "wokwi-slide-switch", "id": "sw7", "top": 220, "left": 820, "rotate": 270, "attrs": {} },
+    { "type": "wokwi-slide-switch", "id": "sw8", "top": 220, "left": 770, "rotate": 270, "attrs": {} },
+    { "type": "wokwi-slide-switch", "id": "sw9", "top": 220, "left": 720, "rotate": 270, "attrs": {} },
+    { "type": "wokwi-slide-switch", "id": "sw10", "top": 220, "left": 620, "rotate": 270, "attrs": {} },
+    { "type": "wokwi-slide-switch", "id": "sw11", "top": 220, "left": 570, "rotate": 270, "attrs": {} },
+    { "type": "wokwi-slide-switch", "id": "sw12", "top": 220, "left": 520, "rotate": 270, "attrs": {} },
+    { "type": "wokwi-slide-switch", "id": "sw13", "top": 220, "left": 420, "rotate": 270, "attrs": {} },
+    { "type": "wokwi-slide-switch", "id": "sw14", "top": 220, "left": 370, "rotate": 270, "attrs": {} },
+    { "type": "wokwi-slide-switch", "id": "sw15", "top": 220, "left": 320, "rotate": 270, "attrs": {} },
+    { "type": "wokwi-slide-switch", "id": "sw16", "top": 220, "left": 220, "rotate": 270, "attrs": {} },
+    { "type": "wokwi-slide-switch", "id": "sw17", "top": 300, "left": 1120, "rotate": 270, "attrs": {} },
+    { "type": "wokwi-slide-switch", "id": "sw18", "top": 300, "left": 1020, "rotate": 270, "attrs": {} },
+    { "type": "wokwi-slide-switch", "id": "sw59", "top": 300, "left": 920, "rotate": 270, "attrs": {} },
+    { "type": "wokwi-slide-switch", "id": "sw60", "top": 300, "left": 820, "rotate": 270, "attrs": {} },
+    { "type": "wokwi-slide-switch", "id": "sw21", "top": 300, "left": 720, "rotate": 270, "attrs": {} },
+    { "type": "wokwi-slide-switch", "id": "sw22", "top": 300, "left": 620, "rotate": 270, "attrs": {} },
+    { "type": "wokwi-slide-switch", "id": "sw23", "top": 300, "left": 520, "rotate": 270, "attrs": {} },
+    { "type": "wokwi-slide-switch", "id": "sw24", "top": 300, "left": 420, "rotate": 270, "attrs": {} },
+    { "type": "wokwi-slide-switch", "id": "sw25", "top": 220, "left": 220, "rotate": 270, "attrs": {} },
+    { "type": "wokwi-slide-switch", "id": "sw26", "top": 220, "left": 220, "rotate": 270, "attrs": {} },
+    { "type": "wokwi-slide-switch", "id": "sw27", "top": 220, "left": 220, "rotate": 270, "attrs": {} },
+    { "type": "wokwi-slide-switch", "id": "sw28", "top": 220, "left": 220, "rotate": 270, "attrs": {} },
+    { "type": "wokwi-slide-switch", "id": "sw29", "top": 220, "left": 220, "rotate": 270, "attrs": {} },
+    { "type": "wokwi-slide-switch", "id": "sw30", "top": 220, "left": 220, "rotate": 270, "attrs": {} },
+    { "type": "wokwi-slide-switch", "id": "sw31", "top": 220, "left": 220, "rotate": 270, "attrs": {} },
+    { "type": "wokwi-slide-switch", "id": "sw32", "top": 220, "left": 220, "rotate": 270, "attrs": {} },
+    { "type": "wokwi-slide-switch", "id": "sw39", "top": 350, "left": 1120, "rotate": 90, "attrs": {} },
+    { "type": "wokwi-slide-switch", "id": "sw40", "top": 350, "left": 1020, "rotate": 90, "attrs": {} },
+    { "type": "wokwi-slide-switch", "id": "sw57", "top": 300, "left": 820, "rotate": 270, "attrs": {} },
+    { "type": "wokwi-slide-switch", "id": "sw58", "top": 220, "left": 220, "rotate": 270, "attrs": {} }
   ],
   "connections": [
-
-
-
     [ "sw1:2", "mega:GND.1", "violet", [ "v0", "*", "v0" ] ],
     [ "sw2:2", "mega:GND.1", "violet", [ "v0", "*", "v0" ] ],
     [ "sw3:2", "mega:GND.1", "violet", [ "v0", "*", "v0" ] ],
@@ -648,11 +168,6 @@
     [ "sw39:3", "mega:GND.1", "black", [ "v0", "*", "h0" ] ],
     [ "sw40:2", "sw18:2", "green", [ "v0", "*", "v0" ] ],
 
-
-
-
-
-
     [ "r1:2", "r2:2", "grey", [ "v5", "*", "v5" ] ],
     [ "r2:2", "r3:2", "grey", [ "v5", "*", "v5" ] ],
     [ "r3:2", "r4:2", "grey", [ "v5", "*", "v5" ] ],
@@ -677,18 +192,8 @@
     [ "mega:28", "led7:A", "violet", [ "h-36.32", "v-151.98", "h28.52", "v-377.27", "h-79.2" ] ],
     [ "mega:29", "led8:A", "grey", [ "h109.6", "v-189.96", "h-211.64", "v-339.29", "h-44.96" ] ],
     [ "mega:37", "led9:A", "white", [ "h209.98", "v-397.34", "h-330.18", "v-162.03", "h-76.8" ] ],
-    [
-      "mega:36",
-      "led10:A",
-      "black",
-      [ "h212.09", "v-394.29", "h-325.54", "v-161.61", "h-173.55" ]
-    ],
-    [
-      "mega:35",
-      "led11:A",
-      "brown",
-      [ "h178.66", "v-380.41", "h-306.29", "v-160.99", "h-219.37" ]
-    ],
+    [ "mega:36", "led10:A", "black", [ "h212.09", "v-394.29", "h-325.54", "v-161.61", "h-173.55" ] ],
+    [ "mega:35", "led11:A", "brown", [ "h178.66", "v-380.41", "h-306.29", "v-160.99", "h-219.37" ] ],
     [ "mega:34", "led12:A", "red", [ "h183.29", "v-375.24", "h-304.17", "v-161.51", "h-266.12" ] ],
     [ "mega:33", "led13:A", "orange", [ "h151.87", "v-274.94", "h-628.87", "v-273.56", "h-20" ] ],
     [ "mega:32", "led14:A", "yellow", [ "h156.6", "v-265.19", "h-673.6", "v-283.31", "h-20" ] ],
@@ -701,12 +206,7 @@
     [ "mega:45", "led21:A", "brown", [ "h68.2", "v2.26", "h339.8", "v-676.26", "h-355" ] ],
     [ "mega:44", "led22:A", "red", [ "h-35.11", "v-2.84", "h449.11", "v-668.16", "h-401" ] ],
     [ "mega:43", "led23:A", "orange", [ "h82.22", "v1.55", "h301.29", "v-656.54", "h-480.51" ] ],
-    [
-      "mega:42",
-      "led24:A",
-      "yellow",
-      [ "h-48.02", "v-3.1", "h435.74", "v-644.39", "h-422.72", "v0.97", "h-102" ]
-    ]
+    [ "mega:42", "led24:A", "yellow", [ "h-48.02", "v-3.1", "h435.74", "v-644.39", "h-422.72", "v0.97", "h-102" ] ]
   ],
   "serialMonitor": { "display": "terminal", "newline": "lf" }
 }
