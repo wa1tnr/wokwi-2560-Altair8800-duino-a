@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "author": "wa1tnr-switch_crafting Sun 22 May 22:59:05 UTC 2022 offline-dragwire-bb-aa",
+  "author": "wa1tnr-switch_crafting Sun 22 May 23:05:31 UTC 2022 offline-dragwire-bb-cc",
   "auth":   " WARNING IS NOT A REAL diagram - is a function switch work-up",
   "editor": "wokwi",
   "parts": [
@@ -181,50 +181,49 @@
     [ "mega:A14", "sw15:1", "green", [ "v210", "h-1693.5", "v-1078.86", "h1150", "v144.36" ] ],
     [ "mega:A15", "sw16:1", "blue", [ "v220", "h-1803.75", "v-1060.48", "h1150", "v115.98" ] ],
 
-    [ "bookmark:",   "xb",      "xc",         "color", [ "v0" ] ],
 
-    [ "Stop up:",    "mega:21", "sw24:3",     "blue",  [ "v0" ] ],
-    [ "Run  down:",  "mega:20", "sw24:1",     "white", [ "v0" ] ],
-    [ "rstcl cgnd:", "sw32:2",  "sw24:2",     "green", [ "v0", "*", "v0" ] ],
-    [ "rstcl gnd:",  "sw32:3",  "mega:GND.1", "black", [ "v0", "*", "v0" ] ],
-
-
-    [ "Step up:",    "mega:4",  "sw23:3",     "blue",  [ "v0" ] ],
-    [ "Slow down:",  "mega:5",  "sw23:1",     "white", [ "v0" ] ],
-    [ "rstcl cgnd:", "sw31:2",  "sw23:2",     "green", [ "v0", "*", "v0" ] ],
-    [ "rstcl gnd:",  "sw31:3",  "mega:GND.1", "black", [ "v0", "*", "v0" ] ],
+    [ "mega:21", "sw24:3",     "blue",  [ "v0" ] ],
+    [ "mega:20", "sw24:1",     "white", [ "v0" ] ],
+    [ "sw32:2",  "sw24:2",     "green", [ "v0", "*", "v0" ] ],
+    [ "sw32:3",  "mega:GND.1", "black", [ "v0", "*", "v0" ] ],
 
 
-    [ "Exam up:",    "mega:6",  "sw22:3",     "blue",  [ "v0" ] ],
-    [ "Enxt down:",  "mega:7",  "sw22:1",     "white", [ "v0" ] ],
-    [ "rstcl cgnd:", "sw30:2",  "sw22:2",     "green", [ "v0", "*", "v0" ] ],
-    [ "rstcl gnd:",  "sw30:3",  "mega:GND.1", "black", [ "v0", "*", "v0" ] ],
-
-    [ "Deps up:",    "mega:8",  "sw21:3",     "blue",  [ "v0" ] ],
-    [ "dnxt down:",  "mega:9",  "sw21:1",     "white", [ "v0" ] ],
-    [ "rstcl cgnd:", "sw29:2",  "sw21:2",     "green", [ "v0", "*", "v0" ] ],
-    [ "rstcl gnd:",  "sw29:3",  "mega:GND.1", "black", [ "v0", "*", "v0" ] ],
+    [ "mega:4",  "sw23:3",     "blue",  [ "v0" ] ],
+    [ "mega:5",  "sw23:1",     "white", [ "v0" ] ],
+    [ "sw31:2",  "sw23:2",     "green", [ "v0", "*", "v0" ] ],
+    [ "sw31:3",  "mega:GND.1", "black", [ "v0", "*", "v0" ] ],
 
 
-    [ "rest up:",    "mega:18", "sw20:3",     "blue",  [ "v0" ] ],
-    [ "clr  down:",  "mega:19", "sw20:1",     "white", [ "v0" ] ],
-    [ "rstcl cgnd:", "sw28:2",  "sw20:2",     "green", [ "v0", "*", "v0" ] ],
-    [ "rstcl gnd:",  "sw28:3",  "mega:GND.1", "black", [ "v0", "*", "v0" ] ],
+    [ "mega:6",  "sw22:3",     "blue",  [ "v0" ] ],
+    [ "mega:7",  "sw22:1",     "white", [ "v0" ] ],
+    [ "sw30:2",  "sw22:2",     "green", [ "v0", "*", "v0" ] ],
+    [ "sw30:3",  "mega:GND.1", "black", [ "v0", "*", "v0" ] ],
 
-    [ "prot up:",    "mega:16", "sw19:3",     "blue",  [ "v0" ] ],
-    [ "unpr down:",  "mega:17", "sw19:1",     "white", [ "v0" ] ],
-    [ "prots cgnd:", "sw27:2",  "sw19:2",     "green", [ "v0", "*", "v0" ] ],
-    [ "prots gnd:",  "sw27:3",  "mega:GND.1", "black", [ "v0", "*", "v0" ] ],
+    [ "mega:8",  "sw21:3",     "blue",  [ "v0" ] ],
+    [ "mega:9",  "sw21:1",     "white", [ "v0" ] ],
+    [ "sw29:2",  "sw21:2",     "green", [ "v0", "*", "v0" ] ],
+    [ "sw29:3",  "mega:GND.1", "black", [ "v0", "*", "v0" ] ],
 
-    [ "aux 1 up:",   "mega:14", "sw18:3",     "blue",  [ "v0" ] ],
-    [ "aux 1 down:", "mega:15", "sw18:1",     "white", [ "v0" ] ],
-    [ "aux 1 cgnd:", "sw26:2",  "sw18:2",     "green", [ "v0", "*", "v0" ] ],
-    [ "aux 1 gnd:",  "sw26:3",  "mega:GND.1", "black", [ "v0", "*", "v0" ] ],
 
-    [ "aux 2 up:",   "mega:3",  "sw17:3",     "blue",  [ "v0" ] ],
-    [ "aux 2 down:", "mega:2",  "sw17:1",     "white", [ "v0" ] ],
-    [ "aux 2 cgnd:", "sw25:2",  "sw17:2",     "green", [ "v0", "*", "v0" ] ],
-    [ "aux 2 gnd:",  "sw25:3",  "mega:GND.1", "black", [ "v0", "*", "h0" ] ],
+    [ "mega:18", "sw20:3",     "blue",  [ "v0" ] ],
+    [ "mega:19", "sw20:1",     "white", [ "v0" ] ],
+    [ "sw28:2",  "sw20:2",     "green", [ "v0", "*", "v0" ] ],
+    [ "sw28:3",  "mega:GND.1", "black", [ "v0", "*", "v0" ] ],
+
+    [ "mega:16", "sw19:3",     "blue",  [ "v0" ] ],
+    [ "mega:17", "sw19:1",     "white", [ "v0" ] ],
+    [ "sw27:2",  "sw19:2",     "green", [ "v0", "*", "v0" ] ],
+    [ "sw27:3",  "mega:GND.1", "black", [ "v0", "*", "v0" ] ],
+
+    [ "mega:14", "sw18:3",     "blue",  [ "v0" ] ],
+    [ "mega:15", "sw18:1",     "white", [ "v0" ] ],
+    [ "sw26:2",  "sw18:2",     "green", [ "v0", "*", "v0" ] ],
+    [ "sw26:3",  "mega:GND.1", "black", [ "v0", "*", "v0" ] ],
+
+    [ "mega:3",  "sw17:3",     "blue",  [ "v0" ] ],
+    [ "mega:2",  "sw17:1",     "white", [ "v0" ] ],
+    [ "sw25:2",  "sw17:2",     "green", [ "v0", "*", "v0" ] ],
+    [ "sw25:3",  "mega:GND.1", "black", [ "v0", "*", "h0" ] ],
 
     [ "r1:2", "r2:2", "grey", [ "v5", "*", "v5" ] ],
     [ "r2:2", "r3:2", "grey", [ "v5", "*", "v5" ] ],
