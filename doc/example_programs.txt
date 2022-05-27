@@ -16,7 +16,8 @@ First program (27 May 2022)
 
 Two Jumps:
 
-001: 000o NOP
+000: 000o NOP  ; RESET to 000o for convenience only
+001: 000o
 002: 000o
 003: 303o JMP
 004: 033o 033o
