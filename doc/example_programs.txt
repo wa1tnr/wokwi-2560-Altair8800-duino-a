@@ -82,7 +82,7 @@ Just for fun .. and to make tracking progress 'easy' ;)
   10 pm: 037: 000o to 000o (back to origin)
   11 pm: 040: 000o    MSB of zero - only A5 is lit
 
-  12 pm: 000: 000o RESET state - same as last '12 pm' seen.
+  12 am: 000: 000o RESET state - same as last '12 pm' seen.
 
 
 The switches are laid out the same as the Altair 8800 Duino kit build;
