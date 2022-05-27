@@ -31,6 +31,60 @@ don't care
 040: 000o
 don't care
 
+end
+
+Single-Stepped:
+
+ all address switches to zero (down) and actuate EXAMINE.
+
+ Iterate SINGLE_STEP (second switch from the left, of
+ the bank of eight function switches).
+
+  STEP  ADDR  VAL
+    00  000: 000o  ; only use of EXAMINE switch (to get to step zero)
+    01  001: 000o  ; first use of SINGLE_STEP switch (to get to step one)
+    02  002: 000o
+    03  003: 303o
+    04  004: 033o
+    05  005: 000o
+    06  033: 000o
+    07  034: 000o
+    08  035: 000o
+    09  036: 303o
+    10  037: 000o  (first five address bit LED's all lit, here)
+    11  040: 000o  (only A5 LED is now lit)
+    12  000: 000o  (all address and LEDs now dark!)
+
+So that's a nice visual cue at the very end of the program;
+just that one high bit is set.  The thirteenth use of the
+SingleStep switch brings the program back to the origin
+(address zero).
+
+Navigation by the (wall) clock (modulo 12)
+
+The program was written to correlate each step to
+the hour hand of an analog wall clock (or wrist
+watch face).
+
+Just for fun .. and to make tracking progress 'easy' ;)
+
+  OCLOCK ADRS DATA
+  12 pm: 000: 000o
+   1 pm: 000: 000o
+   2 pm: 000: 000o
+   3 pm: 003: 303o JMP
+   4 pm: 004: 033o to 033o
+   5 pm: 005: 000o    MSB of zero
+   6 pm: 033: 000o
+   7 pm: 034: 000o
+   8 pm: 035: 000o
+   9 pm: 036: 303o JMP
+  10 pm: 037: 000o to 000o (back to origin)
+  11 pm: 040: 000o    MSB of zero - only A5 is lit
+
+  12 pm: 000: 000o RESET state - same as last '12 pm' seen.
+
+
 The switches are laid out the same as the Altair 8800 Duino kit build;
 you set the function switches to the preferred position (up, down) and
 only then toggle the switch just below it (which completes the ground
