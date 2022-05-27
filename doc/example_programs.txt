@@ -1,1 +1,49 @@
-Fri 27 May 12:26:58 UTC 2022
+Fri 27 May 12:37:15 UTC 2022
+
+Note: referring to 303o (oxc3) as 'JMP' here .. Altair 8800 manual calls it this.
+
+Notation: line numbers (which are addresses, like a code dump)
+are in Octal (base 8) and so are the instructions and operands.
+
+For clean presentation the subscripted 'o' is omitted for the
+addresses.
+
+Notation used is provisional (no previous experience adding
+notational marks to Octal code listings).
+
+
+First program (27 May 2022)
+
+Two Jumps:
+
+001: 000o NOP
+002: 000o
+003: 303o JMP
+004: 033o 033o
+005: 000o
+don't care
+033: 000o NOP
+034: 000o
+035: 000o
+036: 303o JMP
+037: 000o
+040: 000o
+don't care
+
+The switches are laid out the same as the Altair 8800 Duino kit build;
+you set the function switches to the preferred position (up, down) and
+only then toggle the switch just below it (which completes the ground
+so that the connected Arduino Due (simulated here) port pin will sense
+it's been grounded.
+
+The address/data switches do not require this, but on the Altair 8800
+(Duino) most (or all?) the function switches (bottom row) are spring-
+loaded SPDT switches with a center OFF position (both circuits open).
+
+The best that could be done on Wokwi was to use a slide switch, leaving
+returning the 'center OFF' position (lower switch) up to the operator
+(you!) to perform, quite manually.
+
+It's what we got, right now.
+
+END.
