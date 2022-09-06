@@ -14,6 +14,8 @@ recent prior work:
 
 Quick Hints (vastly incomplete, in fact, just begun):
 ```
+  an '!' resets
+  a  'C' accesses a useful menu
   an 'h' will dump to a .HEX format (must capture off the wokwi window manually).
   a  't' steps through the program
   a  '/' allows data entry in the current base (inadequately described in this one line of help text)
