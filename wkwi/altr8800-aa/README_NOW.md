@@ -12,6 +12,16 @@ recent prior work:
   https://wokwi.com/projects/332196032517505618
 
 
+Quick Hints (vastly incomplete, in fact, just begun):
+
+  an 'h' will dump to a .HEX format (must capture off the wokwi window manually).
+  a  't' steps through the program
+  a  '/' allows data entry in the current base (inadequately described in this one line of help text)
+  a  'X' examines current address
+  a  'x' examines next address in sequence
+  a  'P' deposits at current address
+  a  'p' deposits at next address in sequence
+
 Nothing below this line has been reviewed recently for applicability to the current work. ;)
 
  - - - - - -
