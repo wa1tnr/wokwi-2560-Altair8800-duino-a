@@ -1,6 +1,6 @@
-6 Sep 2022: sync publishing to current work
+6 Sep 2022: added cheat sheet hex, step, /data, examine, examine-next, deposit, deposit-next
 
-Tue  6 Sep 19:13:16 UTC 2022
+Tue  6 Sep 19:53:54 UTC 2022
 
   https://github.com/wa1tnr/wokwi-2560-Altair8800-duino-a/tree/dvlp-aa
 
@@ -13,7 +13,7 @@ recent prior work:
 
 
 Quick Hints (vastly incomplete, in fact, just begun):
-
+```
   an 'h' will dump to a .HEX format (must capture off the wokwi window manually).
   a  't' steps through the program
   a  '/' allows data entry in the current base (inadequately described in this one line of help text)
@@ -21,6 +21,7 @@ Quick Hints (vastly incomplete, in fact, just begun):
   a  'x' examines next address in sequence
   a  'P' deposits at current address
   a  'p' deposits at next address in sequence
+```
 
 Nothing below this line has been reviewed recently for applicability to the current work. ;)
 
