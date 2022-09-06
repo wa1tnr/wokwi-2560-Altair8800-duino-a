@@ -1,3 +1,7 @@
+Named .hex in repository ;)  6 September 2022:
+
+Tue  6 Sep 20:17:39 UTC 2022
+
 :1000000000000000C3200000C31800000000000032
 :100010000000000000000000C328000000000000F5
 :10002000C380000000000000C302000000000000C8
@@ -9,3 +13,25 @@
 :10008000C3080000000000000000000000000000A5
 :030090000000006D
 :0000000000
+
+Try uploading it by hand, possibly one line at a time
+using mouse paste or Ctrl v .. whatever works if
+anything works. ;)
+
+Locally, Ctrl + C copies and using the browser's menu system to
+paste allowed this mechanism to upload a working program to
+this simulation!
+
+One line at a time .. from the above .HEX dump of an assembler
+program, that is. ;)
+
+It's a lower case 'h' to create these out of memory held
+in the simulation.
+
+It's the upper case 'H' to then upload them back into the sim.
+
+Note that this is two layers of simulation; here the discussion
+is about the deeper sim (the one that would still be present
+if the program were running on real hardware instead of on wokwi).
+
+END.
