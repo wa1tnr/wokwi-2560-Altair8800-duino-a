@@ -1,6 +1,7 @@
 // -----------------------------------------------------------------------------
 // Altair 8800 Simulator
 // Copyright (C) 2017 David Hansel
+// Tue  6 Sep 20:27:26 UTC 2022 - conformant with wokwi copy
 // -----------------------------------------------------------------------------
 
 #ifndef CONFIG_H
@@ -120,7 +121,7 @@
 // If enabled, Address switch state will be set by issuing the '/'
 // serial command.  Actual switches will be ignored.
 // Useful when operating while not connected to the front panel hardware.
-#define STANDALONE 0
+#define STANDALONE 1
 
 
 
