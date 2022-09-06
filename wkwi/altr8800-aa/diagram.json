@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "author": "wa1tnr-switch_crafting Fri 17 Jun 14:43:26 UTC 2022 offline rotate DEPOSIT sw28 D9 D8",
+  "author": "wa1tnr-switch_crafting Tue  6 Sep 19:13:16 UTC 2022 offline edit",
   "editor": "wokwi",
   "parts": [
     { "type": "wokwi-arduino-mega", "id": "mega", "top": 2650, "left": 550, "attrs": {} },
@@ -204,8 +204,8 @@
     [ "mega:46", "led20:A", "xblack", [ "h-25.35", "v-3.31", "h447.35", "v-683.44", "h-309" ] ],
     [ "mega:45", "led21:A", "xbrown", [ "h68.2", "v2.26", "h339.8", "v-676.26", "h-355" ] ],
     [ "mega:44", "led22:A", "xred", [ "h-35.11", "v-2.84", "h449.11", "v-668.16", "h-401" ] ],
-    [ "mega:43", "led23:A", "xorange", [ "h82.22", "v1.55", "h301.29", "v-656.54", "h-480.51" ] ],
-    [ "mega:42", "led24:A", "xyellow", [ "h-48.02", "v-3.1", "h435.74", "v-644.39", "h-422.72", "v0.97", "h-102" ]
+    [ "mega:43", "led23:A", "xorange", [ "h82", "v1", "h301", "v-656", "h-480" ] ],
+    [ "mega:42", "led24:A", "xyellow", [ "h-48", "v-3", "h435", "v-644", "h-422", "v1", "h-102" ]
     ]
   ],
   "serialMonitor": { "display": "terminal", "newline": "lf" }

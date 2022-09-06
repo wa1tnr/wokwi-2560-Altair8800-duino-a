@@ -1,10 +1,20 @@
-21 May 2022: Towards a validated wiring job. ;)
+6 Sep 2022: sync publishing to current work
 
-Sat 21 May 01:10:10 UTC 2022
+Tue  6 Sep 19:13:16 UTC 2022
 
   https://github.com/wa1tnr/wokwi-2560-Altair8800-duino-a/tree/dvlp-aa
 
+  https://wokwi.com/projects/342079741745955410
+
+
+recent prior work:
+
   https://wokwi.com/projects/332196032517505618
+
+
+Nothing below this line has been reviewed recently for applicability to the current work. ;)
+
+ - - - - - -
 
 Altair8800.ino:
 
