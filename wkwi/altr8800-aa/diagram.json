@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "author": "wa1tnr-switch_crafting Fri  9 Sep 13:20:59 UTC 2022 online edit quick tidy route job",
+  "author": "wa1tnr-switch_crafting Fri  9 Sep 13:24:11 UTC 2022 offline edit",
   "editor": "wokwi",
   "parts": [
     { "type": "wokwi-arduino-mega", "id": "mega", "top": 2650, "left": 550, "attrs": {} },
@@ -186,6 +186,8 @@
     [ "sw30:2", "sw22:2", "green", [ "v0", "*", "h-72", "v27", "h22" ] ],
     [ "sw30:3", "mega:GND.1", "black", [ "h-24", "v30", "*", "h1", "v1", "h-232" ] ],
 
+    [ "mega:21", "sw23:1", "white", [ "v0", "*", "h15" ] ],
+    [ "mega:20", "sw23:3", "blue", [ "v0", "*", "h30" ] ],
 
     [ "sw31:2", "sw23:2", "green", [ "v0", "*", "h-72", "v27", "h22" ] ],
     [ "sw31:3", "mega:GND.1", "black", [ "h-24", "v30", "*", "h1", "v1", "h-232" ] ],
