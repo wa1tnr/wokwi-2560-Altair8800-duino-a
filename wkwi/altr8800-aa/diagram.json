@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "author": "wa1tnr-switch_crafting Fri  9 Sep 13:06:42 UTC 2022 online edit WANT sw19 not sw60",
+  "author": "wa1tnr-switch_crafting Fri  9 Sep 13:08:42 UTC 2022 offline edit TOWARDS sw19 not sw60",
   "editor": "wokwi",
   "parts": [
     { "type": "wokwi-arduino-mega", "id": "mega", "top": 2650, "left": 550, "attrs": {} },
@@ -60,6 +60,7 @@
     { "type": "wokwi-slide-switch", "id": "sw5", "top": 220, "left": 920, "rotate": 270, "attrs": {} },
     { "type": "wokwi-slide-switch", "id": "sw6", "top": 220, "left": 820, "rotate": 270, "attrs": {} },
     { "type": "wokwi-slide-switch", "id": "sw7", "top": 220, "left": 770, "rotate": 270, "attrs": {} },
+
     { "type": "wokwi-slide-switch", "id": "sw8", "top": 220, "left": 720, "rotate": 270, "attrs": {} },
     { "type": "wokwi-slide-switch", "id": "sw9", "top": 220, "left": 620, "rotate": 270, "attrs": {} },
     { "type": "wokwi-slide-switch", "id": "sw10", "top": 220, "left": 570, "rotate": 270, "attrs": {} },
@@ -68,14 +69,16 @@
     { "type": "wokwi-slide-switch", "id": "sw13", "top": 220, "left": 370, "rotate": 270, "attrs": {} },
     { "type": "wokwi-slide-switch", "id": "sw14", "top": 220, "left": 320, "rotate": 270, "attrs": {} },
     { "type": "wokwi-slide-switch", "id": "sw15", "top": 220, "left": 220, "rotate": 270, "attrs": {} },
+
     { "type": "wokwi-slide-switch", "id": "sw16", "top": 300, "left": 1020, "rotate": 270, "attrs": {} },
     { "type": "wokwi-slide-switch", "id": "sw17", "top": 300, "left": 920, "rotate": 270, "attrs": {} },
-    { "type": "wokwi-slide-switch", "id": "sw59", "top": 300, "left": 795, "rotate": 270, "attrs": {} },
-    { "type": "wokwi-slide-switch", "id": "sw60", "top": 300, "left": 675, "rotate": 270, "attrs": {} },
+    { "type": "wokwi-slide-switch", "id": "sw18", "top": 300, "left": 795, "rotate": 270, "attrs": {} },
+    { "type": "wokwi-slide-switch", "id": "sw19", "top": 300, "left": 675, "rotate": 270, "attrs": {} },
     { "type": "wokwi-slide-switch", "id": "sw20", "top": 300, "left": 570, "rotate": 270, "attrs": {} },
     { "type": "wokwi-slide-switch", "id": "sw21", "top": 300, "left": 460, "rotate": 270, "attrs": {} },
     { "type": "wokwi-slide-switch", "id": "sw22", "top": 300, "left": 345, "rotate": 270, "attrs": {} },
     { "type": "wokwi-slide-switch", "id": "sw23", "top": 300, "left": 220, "rotate": 270, "attrs": {} },
+
     { "type": "wokwi-slide-switch", "id": "sw24", "top": 350, "left": 1020, "rotate": 90, "attrs": {} },
     { "type": "wokwi-slide-switch", "id": "sw25", "top": 350, "left": 920, "rotate": 90, "attrs": {} },
     { "type": "wokwi-slide-switch", "id": "sw26", "top": 350, "left": 795, "rotate": 90, "attrs": {} },
@@ -159,11 +162,22 @@
 
     [ "mega:9", "sw20:1", "white", [ "v0", "*", "h15" ] ],
     [ "mega:8", "sw20:3", "blue", [ "v0", "*", "h30" ] ],
+
+
+    [ "sw26:2", "sw18:2", "green", [ "v0", "*", "h-72", "v27", "h22" ] ],
+    [ "sw26:3", "mega:GND.1", "black", [ "v0", "*", "h1", "v1", "h-122" ] ],
+
+    [ "sw27:2", "sw19:2", "green", [ "v0", "*", "h-72", "v27", "h22" ] ],
+    [ "sw27:3", "mega:GND.1", "black", [ "v0", "*", "h1", "v1", "h-122" ] ],
+
+
     [ "sw28:2", "sw20:2", "green", [ "v0", "*", "h-72", "v27", "h22" ] ],
     [ "sw28:3", "mega:GND.1", "black", [ "v0", "*", "h1", "v1", "h-122" ] ],
 
     [ "mega:7", "sw21:1", "white", [ "v0", "*", "h15" ] ],
     [ "mega:6", "sw21:3", "blue", [ "v0", "*", "h30" ] ],
+
+
 
 
     [ "sw29:2", "sw21:2", "green", [ "v0", "*", "h-72", "v27", "h22" ] ],
