@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "author": "wa1tnr-switch_crafting Fri  9 Sep 13:08:42 UTC 2022 offline edit TOWARDS sw19 not sw60",
+  "author": "wa1tnr-switch_crafting Fri  9 Sep 13:14:15 UTC 2022 offline edit did most switch grounds",
   "editor": "wokwi",
   "parts": [
     { "type": "wokwi-arduino-mega", "id": "mega", "top": 2650, "left": 550, "attrs": {} },
@@ -157,6 +157,12 @@
 
     [ "mega:15", "sw17:1", "white", [ "v0", "*", "h15" ] ],
     [ "mega:14", "sw17:3", "blue", [ "v0", "*", "h30" ] ],
+
+
+    [ "sw24:2",  "sw16:2", "green", [ "v0", "*", "h-72", "v27", "h22" ] ],
+    [ "sw24:3", "mega:GND.1", "black", [ "v0", "*", "h235" ] ],
+
+
     [ "sw25:2",  "sw17:2", "green", [ "v0", "*", "h-72", "v27", "h22" ] ],
     [ "sw25:3", "mega:GND.1", "black", [ "v0", "*", "h235" ] ],
 
