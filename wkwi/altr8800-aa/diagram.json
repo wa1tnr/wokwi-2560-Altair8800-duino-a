@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "author": "wa1tnr-switch_crafting Fri  9 Sep 13:24:11 UTC 2022 offline edit",
+  "author": "wa1tnr-switch_crafting Fri  9 Sep 13:45:31 UTC 2022 online edit RUN STOP both work noice",
   "editor": "wokwi",
   "parts": [
     { "type": "wokwi-arduino-mega", "id": "mega", "top": 2650, "left": 550, "attrs": {} },
