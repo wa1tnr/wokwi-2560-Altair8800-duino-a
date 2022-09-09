@@ -1,10 +1,23 @@
-6 Sep 2022: added cheat sheet hex, step, /data, examine, examine-next, deposit, deposit-next
+9 Sep 2022: added experimental copy uri from wokwi
 
-Tue  6 Sep 19:53:54 UTC 2022
+Fri  9 Sep 12:21:38 UTC 2022
 
   https://github.com/wa1tnr/wokwi-2560-Altair8800-duino-a/tree/dvlp-aa
 
+canonical latest work:
+
   https://wokwi.com/projects/342079741745955410
+
+
+NEW WORK for 9 September - EXPERIMENTAL diagram.json changes:
+
+  https://wokwi.com/projects/342325999836332627
+
+This second copy is not presently considered definitive.
+It's here mainly to check for wiring omissions or mistakes.
+
+It may go away (undecided 9 Sep 2022).
+
 
 
 recent prior work:

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "author": "wa1tnr-switch_crafting Tue  6 Sep 20:27:26 UTC 2022 online edit",
+  "author": "wa1tnr-switch_crafting Fri  9 Sep 12:21:38 UTC 2022 offline edit",
   "editor": "wokwi",
   "parts": [
     { "type": "wokwi-arduino-mega", "id": "mega", "top": 2650, "left": 550, "attrs": {} },
@@ -78,12 +78,12 @@
     { "type": "wokwi-slide-switch", "id": "sw23", "top": 300, "left": 220, "rotate": 270, "attrs": {} },
     { "type": "wokwi-slide-switch", "id": "sw24", "top": 350, "left": 1020, "rotate": 90, "attrs": {} },
     { "type": "wokwi-slide-switch", "id": "sw25", "top": 350, "left": 920, "rotate": 90, "attrs": {} },
-    { "type": "wokwi-slide-switch", "id": "sw26", "top": 350, "left": 795, "rotate": 270, "attrs": {} },
-    { "type": "wokwi-slide-switch", "id": "sw27", "top": 350, "left": 675, "rotate": 270, "attrs": {} },
+    { "type": "wokwi-slide-switch", "id": "sw26", "top": 350, "left": 795, "rotate": 90, "attrs": {} },
+    { "type": "wokwi-slide-switch", "id": "sw27", "top": 350, "left": 675, "rotate": 90, "attrs": {} },
     { "type": "wokwi-slide-switch", "id": "sw28", "top": 350, "left": 570, "rotate": 90, "attrs": {} },
     { "type": "wokwi-slide-switch", "id": "sw29", "top": 350, "left": 460, "rotate": 90, "attrs": {} },
-    { "type": "wokwi-slide-switch", "id": "sw30", "top": 350, "left": 345, "rotate": 270, "attrs": {} },
-    { "type": "wokwi-slide-switch", "id": "sw31", "top": 350, "left": 220, "rotate": 270, "attrs": {} }
+    { "type": "wokwi-slide-switch", "id": "sw30", "top": 350, "left": 345, "rotate": 90, "attrs": {} },
+    { "type": "wokwi-slide-switch", "id": "sw31", "top": 350, "left": 220, "rotate": 90, "attrs": {} }
   ],
   "connections": [
     [ "sw0:2", "mega:GND.1", "xviolet", [ "v0", "*", "v0" ] ],
