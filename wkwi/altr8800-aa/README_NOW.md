@@ -1,6 +1,6 @@
-9 Sep 2022: added experimental copy uri from wokwi
+9 Sep 2022: merged wiring experiments to main
 
-Fri  9 Sep 12:21:38 UTC 2022
+Fri  9 Sep 14:06:59 UTC 2022
 
   https://github.com/wa1tnr/wokwi-2560-Altair8800-duino-a/tree/dvlp-aa
 

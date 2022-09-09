@@ -1,7 +1,6 @@
-
     // please see README_NOW.md  - do not delay ;)
 
-// Tue  6 Sep 20:27:26 UTC 2022
+// Fri  9 Sep 14:06:59 UTC 2022
 
 // -----------------------------------------------------------------------------
 // Altair 8800 Simulator
